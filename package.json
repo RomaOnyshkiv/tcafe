@@ -1,0 +1,16 @@
+{
+  "name": "tcafe",
+  "version": "1.0.0",
+  "description": "tests",
+  "main": "test.ts",
+  "scripts": {
+    "sfari": "testcafe safari test.ts",
+    "chrome": "testcafe chrome test.ts",
+    "headless": "testcafe \"chrome:headless\" test.ts"
+  },
+  "author": "roman",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.18.4"
+  }
+}
